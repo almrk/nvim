@@ -4,9 +4,14 @@ return {
     priority = 9999,
     config = function()
         require("nightfox").setup({
+            specs = {
+                carbonfox = {
+                    bg0 = "bg1",
+                    bg1 = "bg0",
+                }
+            },
             options = {
                 terminal_colors = true,
-                dim_inactive = true,
                 styles = {
                     comments = "italic",
                     keywords = "bold",
