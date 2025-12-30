@@ -1,5 +1,5 @@
-vim.opt.number = true
-
+vim.g.mapleader = " "        -- Set the leader key for keymappings
+vim.opt.number = true        -- Show line numbers
 vim.opt.encoding = "UTF-8"   -- Sets the character encoding used for files
 vim.opt.expandtab = true     -- Use spaces instead of tabs when indenting
 vim.opt.tabstop = 4          -- Number of spaces that a <Tab> represents.
@@ -8,5 +8,6 @@ vim.opt.autoindent = true    -- Copy the indent from the line above when startin
 vim.opt.ruler = true         -- Display the row and column in the bar at the bottom
 vim.opt.title = true         -- Set the window title to whatever Neovim wants to
 vim.opt.termguicolors = true -- Enable true color support
-vim.opt.syntax = "off"        -- Enable syntax highlighting
+vim.opt.syntax = "off"       -- Enable syntax highlighting
 vim.opt.mouse = ""           -- Disable mouse support
+vim.opt.background = "dark"  -- Ensure that all colour schemes know to use the dark variant
