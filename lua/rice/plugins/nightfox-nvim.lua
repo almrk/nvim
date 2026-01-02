@@ -4,13 +4,14 @@ return {
     priority = 9999,
     config = function()
         require("nightfox").setup({
-            specs = {
-                carbonfox = {
-                    bg0 = "bg1",
-                    bg1 = "bg0",
-                }
-            },
+            -- specs = {
+            --     carbonfox = {
+            --         bg0 = "bg1",
+            --         bg1 = "bg0",
+            --     }
+            -- },
             options = {
+                transparent = true,
                 terminal_colors = true,
                 styles = {
                     comments = "italic",
@@ -19,6 +20,6 @@ return {
                 }
             }
         })
-        -- vim.cmd("colorscheme carbonfox")
+        vim.cmd("colorscheme carbonfox")
     end
 }
