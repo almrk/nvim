@@ -1,6 +1,5 @@
 if vim.g.neovide then
-    vim.o.guifont = "Terminess Nerd Font:h12"
-    vim.g.neovide_cursor_animation_length = 0.125
+    vim.g.neovide_cursor_animation_length = 0.12
     vim.g.neovide_cursor_short_animation_length = 0.03
     vim.g.neovide_cursor_vfx_mode = "pixiedust"
     vim.g.neovide_cursor_vfx_lifetime = 1.0

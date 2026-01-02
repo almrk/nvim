@@ -9,5 +9,4 @@ vim.opt.ruler = true         -- Display the row and column in the bar at the bot
 vim.opt.title = true         -- Set the window title to whatever Neovim wants to
 vim.opt.termguicolors = true -- Enable true color support
 vim.opt.syntax = "off"       -- Enable syntax highlighting
-vim.opt.mouse = ""           -- Disable mouse support
 vim.opt.background = "dark"  -- Ensure that all colour schemes know to use the dark variant
